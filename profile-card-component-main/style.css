@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    
+}
+
+.contenido{
+  background-color:white;
+  width: 300px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  
+  left: 35%;
+  transform: translateY(30%);
+  
+   
+}
+.portada{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display:block;
+    margin:auto;
+}
+.perfil{
+    border-radius: 50%;
+    display:block;
+    margin:auto;
+}
+.Contentdatos{
+    margin:2%;
+    display: flex;
+    justify-content: center;
+ 
+}
+.name{
+
+    margin: 5px;
+  }
+
+.age{
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 59%);
+    margin: 5px;
+
+}
+
+.ubication{
+    display: flex;
+    justify-content: center;
+    color: hsl(0, 0%, 59%);
+}
+hr {
+    height: 0.5px;
+    border: 0;
+    background-color: rgb(214, 208, 208);
+}
+.likes {
+    
+    margin: 1px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.descripcion{
+    display: flex;
+    justify-content: space-around;
+    color: hsl(0, 0%, 59%);
+}
+
+.top{
+    width: 700px;
+    height: 700px;
+    margin: -2%;
+}
+.bottom{
+    width: 30%;
+    height: 30%;
+}
+
+
+
+
