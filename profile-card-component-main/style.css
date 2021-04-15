@@ -1,92 +1,66 @@
-body{
-
-    overflow: hidden;
-    background-color: hsl(185, 75%, 39%);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    position: relative;
-    
+body {
+  overflow:scroll;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 630px 610px;
 }
 
-.contenido{
-  background-color:white;
-  width: 350px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border-bottom-left-radius: 20px;
+.card {
+  min-width: 30%;
+  width: 30%;
+  height: 425px;
+  margin: 17% auto;
+  border-radius: 11px;
+  position: relative;
+}
+
+.card-image {
+  background-image: url("images/bg-pattern-card.svg");
+  height: 180px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.card-info {
+  background-color: white;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.social-media-info {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-around;
+  height: 94px;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.profile-image {
+  border-radius: 50px;
+  border: 3px solid white;
   position: absolute;
-  
-  left:300px;
-  transform: translateY(30%);
-  
-   
+  margin: auto;
+  top: 0px;
+  left: 0;
+  bottom: 95px;
+  right: 0;
 }
-.portada{
-    width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    display:block;
-    margin:auto;
-}
-.perfil{
-    border-radius: 50%;
-    display:block;
-    margin:auto;
-}
-.Contentdatos{
-    margin:2%;
-    display: flex;
-    justify-content: center;
- 
-}
-.name{
-
-    margin: 5px;
-  }
-
-.age{
-    display: flex;
-    flex-direction: column;
-    color: hsl(0, 0%, 59%);
-    margin: 5px;
-
-}
-
-.ubication{
-    display: flex;
-    justify-content: center;
-    color: hsl(0, 0%, 59%);
-}
-hr {
-    height: 0.5px;
-    border: 0;
-    background-color: rgb(214, 208, 208);
-}
-.likes {
-    
-    margin: 1px;
-    display: flex;
-    justify-content: space-around;
-
-}
-.descripcion{
-    display: flex;
-    justify-content: space-around;
-    color: hsl(0, 0%, 59%);
-}
-
-.top{
-    width: 700px;
-    height: 700px;
-    margin: -2%;
-}
-.bottom{
-    width: 30%;
-    height: 30%;
-}
-
-
-
-
