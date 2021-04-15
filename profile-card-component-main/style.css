@@ -1,5 +1,5 @@
 body {
-  overflow:scroll;
+  
   background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
   background-position: left top, right bottom;
   background-repeat: no-repeat, no-repeat;
